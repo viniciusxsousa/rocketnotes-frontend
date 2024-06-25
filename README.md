@@ -1,8 +1,31 @@
-# React + Vite
+# Rocket Notes (Front-End)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A interface front-end do projeto Rocket Notes oferece aos usuários uma experiência intuitiva e eficiente para gerenciamento de notas. Com esta aplicação, os usuários podem criar uma conta, fazer login e começar a criar, editar e pesquisar por notas existentes com facilidade. A interface foi desenvolvida utilizando tecnologias modernas, proporcionando uma navegação fluida e responsiva. Funcionalidades adicionais, como categorização de notas e busca avançada, foram implementadas para melhorar a usabilidade e atender às necessidades dos usuários de forma eficaz.
 
-Currently, two official plugins are available:
+### :arrow_forward: Rodando o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Para rodar esse projeto, é necessário ter configurado o back-end, que está disponível no seguinte link:
+https://github.com/viniciusxsousa/rocketnotes-backend
+
+
+1. Faça o clone desse repositório.
+2. Rode o comando `npm install`, para instalar as libs.
+3. Acesse `src/services/index.js`, e no arquivo `index.js` defina a base URL de acordo com o que você definiu no env do back-end.
+3. Rode o comando npm run dev para rodar a aplicação. 
+
+
+### :atom_symbol: Tecnologias 
+* [Axios](https://axios-http.com/ptbr/docs/intro)
+* [React-router-dom](https://reactrouter.com/en/main)
+* [Styled Components](https://styled-components.com/)
+
+### :computer_mouse: Features
+ 
+  * Cadastro de novo usuário
+  * autenticação de usuário
+  * busca por notas através de pesquisa e filtros
+  * Possibilidade de adicionar links as notas
+  * Edição da nota criada
+  * Deletar uma nota
+
+  ### :desktop_computer: Previa do Projeto
