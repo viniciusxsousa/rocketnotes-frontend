@@ -29,3 +29,4 @@ https://github.com/viniciusxsousa/rocketnotes-backend
   * Deletar uma nota
 
   ### :desktop_computer: Previa do Projeto
+  https://github.com/viniciusxsousa/rocketnotes-frontend/assets/81489425/1be14577-cc04-48ae-b822-3a6f8c6b5735
